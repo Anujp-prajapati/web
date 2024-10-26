@@ -1,0 +1,225 @@
+body {
+  background-image: url(ksas-kiit-applied-science.jpg);
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  background-color: transparent;
+  /* border: soliblack; */
+}
+/* p {
+  border: solid rgb(225, 218, 218) 2px;
+  background-color: transparent;
+  font-display: center;
+  float: right;
+} */
+.logo h1 {
+  margin-top: -59px;
+  margin-left: 250px;
+  display: flex;
+
+  /* border: solid rgb(225, 218, 218) 2px; */
+  box-shadow: 5px;
+  color: antiquewhite;
+  word-spacing: 16px;
+  font-size: 50px;
+  text-align: center;
+}
+.student {
+  color: antiquewhite;
+  font-size: 20px;
+  padding-left: 270px;
+  font-family: bold;
+  font-weight: bold;
+
+  /* border: solid red 2px; */
+  border-radius: 5px;
+}
+.father {
+  color: antiquewhite;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  padding-left: 270px;
+  font-family: bold;
+
+  /* border: solid blue 2px; */
+}
+
+.mother {
+  color: antiquewhite;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  padding-left: 270px;
+
+  font-family: bold;
+
+  /* border: solid green 2px; */
+}
+.address {
+  color: antiquewhite;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  padding-left: 270px;
+
+  font-family: bold;
+
+  /* border: solid red 2px; */
+}
+.email {
+  color: antiquewhite;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  padding-left: 270px;
+
+  font-family: bold;
+
+  /* border: solid; */
+  text-align: auto;
+}
+
+.contact {
+  color: antiquewhite;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  padding-left: 270px;
+
+  font-family: bold;
+
+  /* border: solid; */
+}
+dropdown {
+  margin-top: -13%;
+}
+.student input {
+  margin-left: 5px;
+  /* border: 2px solid rgb(218, 188, 188); */
+  border-radius: 6px;
+  width: 300px;
+}
+.father input {
+  background-color: white;
+  width: 300px;
+  /* border: 2px solid rgb(218, 188, 188); */
+
+  margin-left: 3px;
+
+  border-radius: 5px;
+}
+.mother input {
+  border: 2px solid rgb(12, 1, 1);
+  margin-left: 1px;
+  border-radius: 5px;
+  width: 300px;
+}
+.address input {
+  border: 2px solid rgb(11, 9, 9);
+  margin-left: 62px;
+  border-radius: 5px;
+  width: 300px;
+}
+.contact input {
+  width: 300px;
+
+  border: 2px solid rgb(12, 6, 6);
+  margin-left: 30px;
+  border-radius: 5px;
+}
+.email input {
+  width: 300px;
+
+  border: 2px solid rgb(8, 4, 4);
+  border-radius: 5px;
+  margin-left: 80px;
+}
+.gender {
+  color: antiquewhite;
+
+  font-weight: bold;
+
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+  padding-left: 270px;
+  /* border: 2px solid black; */
+}
+.dob {
+  color: rgb(196, 196, 185);
+
+  font-size: large;
+  padding-left: 270px;
+  /* border: 2px solid black; */
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+.dob input {
+  border-color: rgb(7, 6, 5);
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.department {
+  color: antiquewhite;
+
+  /* border: 2px solid red; */
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  padding-left: 270px;
+  font-weight: bold;
+}
+.department input {
+  border-radius: 7px;
+  border: 2px solid rgb(14, 10, 10);
+  margin-left: 39px;
+}
+.photo {
+  color: antiquewhite;
+
+  height: auto;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  padding-left: 270px;
+  font-weight: bold;
+}
+.logo img {
+  /* border: 2px solid black; */
+  padding-left: 12px;
+  padding-top: 9px;
+  background-color: transparent;
+  height: 50px;
+  size: 10px;
+}
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20rem;
+  margin-right: 2rem;
+  /* border: solid black 8px; */
+}
+button[type="submit"] {
+  background-color: green;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 14px;
+}
+
+button[type="reset"] {
+  background-color: red;
+  border-radius: 14px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: bolder;
+}

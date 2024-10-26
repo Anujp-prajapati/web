@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: auto;
+}
+.super {
+  width: 50%;
+  /* height: 70%;
+   */
+  /* border: solid yellow 10px; */
+  margin: 70px auto;
+  justify-content: center;
+}
+.main {
+  /* border: solid black 10px; */
+  height: 600px;
+  box-shadow: 0px 1px 9px 1px rgb(154, 149, 149);
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.3rem;
+
+  /* border: solid black 3px; */
+}
+.facebook {
+  padding-top: 10px;
+  /* border: 2px solid red; */
+  text-align: center;
+  font-size: 80px;
+  color: blue;
+  font-weight: bold;
+}
+.headder {
+  /* background-color: aqua; */
+  /* border: 2px solid green; */
+  padding-top: 2px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.headder::first-letter {
+  color: blue;
+}
+.first {
+  padding-bottom: 10px;
+  /* background-color: blueviolet; */
+  /* border: solid yellow 2px; */
+  /* box-shadow: 0px 1px 15px 1px black; */
+
+  font-size: large;
+  font-weight: bold;
+  margin: -10px;
+
+  text-align: center;
+}
+.name {
+  /* box-shadow: 0px 1px 15px 1px rgb(183, 173, 173); */
+
+  margin-left: 5rem;
+  /* border: solid green 4px; */
+  /* margin-top: -7%; */
+  display: flex;
+  gap: 1rem;
+}
+.name input {
+  /* box-shadow: 0px 1px 15px 1px rgb(183, 173, 173); */
+}
+.second {
+  margin-left: 5rem;
+  /* border: solid 2px greenyellow; */
+  display: flex;
+  gap: 1rem;
+}
+.second input {
+  /* box-shadow: 0px 1px 15px 1px rgb(183, 173, 173); */
+
+  display: flex;
+  flex-direction: row;
+}
+.footer {
+  /* background-color: cyan; */
+
+  /* border: solid orange 3px; */
+  display: flex;
+  flex-direction: column;
+
+  gap: 1rem;
+  /* border-radius: 0px; */
+
+  /* display: flex; */
+}
+.name {
+  /* width: 50px; */
+
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+
+  color: rgb(113, 244, 113);
+}
+button[type="button"] {
+  padding: 5px 10px;
+  display: flex;
+
+  color: aliceblue;
+  background-color: rgb(57, 226, 14);
+  border-radius: 8px;
+
+  font-size: 25px;
+
+  font-weight: bolder;
+
+  border: none;
+}
+button[type="button"]:hover {
+  background-color: rgb(78, 184, 52);
+}
+
+.account {
+  font-size: 20px;
+  text-align: center;
+  color: blue;
+}
+.info {
+  text-align: center;
+}
+.dob {
+  margin-left: 2rem;
+  display: flex;
+  gap: 0.3rem;
+
+  /* padding-left: 2px; */
+}
+.dob input {
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+}
+.second {
+  display: flex;
+}
+
+.gen {
+  margin-left: 4rem;
+  display: flex;
+  /* border: 2px solid green; */
+  gap: 0.4rem;
+}
+.gen input {
+  width: 50px;
+}
+
+input {
+  border: 2px solid rgb(193, 188, 188);
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
